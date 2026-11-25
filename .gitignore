@@ -17,3 +17,7 @@ htmlcov/
 .env
 CLAUDE.local.md
 .claude/settings.local.json
+
+# Local planning documents (not published)
+Actraforge_RISKS.md
+Actraforge_ROADMAP.md

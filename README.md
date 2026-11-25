@@ -1,6 +1,9 @@
-# Actraforge
+<p align="center">
+  <img src="docs/assets/brand/banner.svg" width="100%"
+       alt="Actraforge — open-source action reliability. Unreliable agents. Unreliable networks. Reliable action management. Authorize, Execute, Verify, Reconcile.">
+</p>
 
-*Unreliable agents. Unreliable networks. Reliable action management.*
+# Actraforge
 
 Actraforge is an open-source runtime and test lab for external actions taken by software agents.
 
@@ -13,7 +16,7 @@ Actraforge is an open-source runtime and test lab for external actions taken by 
 
 Neither component needs an LLM to be correct.
 
-> **Status: pre-alpha, week 1 of the [roadmap](Actraforge_ROADMAP.md).** Nothing here is usable
+> **Status: pre-alpha, week 1; v0.1 is planned for week 24.** Nothing here is usable
 > yet. No release, benchmark result or production readiness is claimed.
 
 ## Core rules (excerpt)
@@ -39,6 +42,17 @@ uv run pytest
 ```
 
 Contributor and agent rules: [`AGENTS.md`](AGENTS.md).
+
+## Visual identity
+
+Logo and banner live in [`docs/assets/brand/`](docs/assets/brand/).
+
+| Role | Color |
+| --- | --- |
+| Background | `#0b1220` |
+| Primary | `#2563eb` |
+| Verified | `#0d9488` |
+| Text | `#e2e8f0` |
 
 ## License
 
