@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Actraforge</title>
+  <desc id="desc">Actraforge — open-source action reliability. Unreliable agents. Unreliable networks. Reliable action management. Authorize, Execute, Verify, Reconcile.</desc>
+  <defs>
+    <linearGradient id="hex" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.9" cy="0.1" r="0.8">
+      <stop offset="0" stop-color="#2563eb" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#1e293b"/>
+    </pattern>
+  </defs>
+
+  <style>
+    text { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .title { font-size: 44px; font-weight: 700; letter-spacing: 3px; fill: #e2e8f0; }
+    .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 3px; fill: #94a3b8; }
+    .tag { font-size: 28px; font-weight: 600; fill: #e2e8f0; }
+    .tag-dim { font-size: 28px; font-weight: 600; fill: #64748b; }
+    .step { font-size: 18px; font-weight: 600; fill: #e2e8f0; }
+    .note { font-size: 13.5px; fill: #94a3b8; }
+    .badge { font-size: 12px; font-weight: 600; letter-spacing: 2.5px; fill: #94a3b8; }
+  </style>
+
+  <!-- card -->
+  <rect x="0.5" y="0.5" width="1199" height="419" rx="24" fill="#0b1220" stroke="#1e293b"/>
+  <rect x="0.5" y="0.5" width="1199" height="419" rx="24" fill="url(#glow)"/>
+
+  <!-- logo -->
+  <g transform="translate(64 66)">
+    <polygon points="48,0 89.6,24 89.6,72 48,96 6.4,72 6.4,24" fill="#0f1a30" stroke="url(#hex)" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M29 72 L48 26 L67 72 M36 57 H60" fill="none" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="48" cy="22" r="5.5" fill="#0d9488" stroke="#0f1a30" stroke-width="2"/>
+  </g>
+
+  <!-- wordmark -->
+  <text class="title" x="180" y="118">ACTRAFORGE</text>
+  <text class="eyebrow" x="182" y="148">OPEN-SOURCE ACTION RELIABILITY</text>
+
+  <line x1="64" y1="196" x2="600" y2="196" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- tagline -->
+  <text class="tag-dim" x="64" y="246">Unreliable agents.</text>
+  <text class="tag-dim" x="64" y="284">Unreliable networks.</text>
+  <text class="tag" x="64" y="322">Reliable action management.</text>
+
+  <!-- badge -->
+  <g transform="translate(64 350)">
+    <rect x="0.5" y="0.5" width="196" height="30" rx="15" fill="none" stroke="#1e293b"/>
+    <circle cx="18" cy="15.5" r="4" fill="#0d9488"/>
+    <text class="badge" x="31" y="20">BUILDING IN PUBLIC</text>
+  </g>
+
+  <!-- lifecycle panel -->
+  <rect x="660" y="56" width="480" height="308" rx="18" fill="url(#dots)"/>
+  <rect x="660.5" y="56.5" width="479" height="307" rx="18" fill="#0f172a" fill-opacity="0.82" stroke="#1e293b"/>
+  <text class="eyebrow" x="692" y="96">ACTION LIFECYCLE</text>
+
+  <line x1="708" y1="140" x2="708" y2="314" stroke="#1e3a8a" stroke-width="2"/>
+
+  <g>
+    <circle cx="708" cy="140" r="10" fill="#2563eb"/>
+    <text class="step" x="734" y="138">Authorize</text>
+    <text class="note" x="734" y="158">policy, approval and idempotency before any write</text>
+  </g>
+  <g>
+    <circle cx="708" cy="198" r="10" fill="#2563eb"/>
+    <text class="step" x="734" y="196">Execute</text>
+    <text class="note" x="734" y="216">fenced dispatch; no hidden retries of unsafe writes</text>
+  </g>
+  <g>
+    <circle cx="708" cy="256" r="11" fill="#0d9488"/>
+    <path d="M703 256.5 l3.5 3.5 l6.5 -7" fill="none" stroke="#e2e8f0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="step" x="734" y="254">Verify</text>
+    <text class="note" x="734" y="274">trusted evidence, not acknowledgements</text>
+  </g>
+  <g>
+    <circle cx="708" cy="314" r="9" fill="#0b1220" stroke="#2563eb" stroke-width="2.5"/>
+    <text class="step" x="734" y="312">Reconcile</text>
+    <text class="note" x="734" y="332">an unknown outcome stays unknown until resolved</text>
+  </g>
+</svg>
